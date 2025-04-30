@@ -1,0 +1,99 @@
+/* === Tricks List Styles === */
+.tricks {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .tricks h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tricks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tricks li {
+    background: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tricks button {
+    background: #61dafb;
+    border: none;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s ease;
+  }
+  
+  .tricks button:hover {
+    background: #4ec0e9;
+  }
+  
+  /* === Add Trick Form === */
+  .form-addTrick {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  }
+  
+  .form-addTrick input,
+  .form-addTrick select,
+  .form-addTrick button {
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-addTrick button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-addTrick button:hover {
+    background-color: #45a049;
+  }
+  
+  /* === Toasts === */
+  .ui-toast {
+    animation: fadeInOut 3s ease forwards;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    10%, 90% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }
+  
