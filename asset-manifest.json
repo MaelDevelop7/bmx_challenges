@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bmx_challenges/static/css/main.f46e3211.css",
+    "main.js": "/bmx_challenges/static/js/main.0e211e3e.js",
+    "static/js/453.38889ea5.chunk.js": "/bmx_challenges/static/js/453.38889ea5.chunk.js",
+    "index.html": "/bmx_challenges/index.html",
+    "main.f46e3211.css.map": "/bmx_challenges/static/css/main.f46e3211.css.map",
+    "main.0e211e3e.js.map": "/bmx_challenges/static/js/main.0e211e3e.js.map",
+    "453.38889ea5.chunk.js.map": "/bmx_challenges/static/js/453.38889ea5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f46e3211.css",
+    "static/js/main.0e211e3e.js"
+  ]
+}
